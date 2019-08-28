@@ -2,19 +2,6 @@ body {
 	margin: 0px;
 }
 
-.container {
-	width: 100%;
-	display: block;
-}
-
-.col1 {
-	width: 100%;
-}
-
-.col2 {
-
-}
-
 hr {
 	width: 650px;
 	margin: 30px auto 0;
@@ -42,7 +29,6 @@ ul a {
 	margin: 0 auto;
 	font-family: helvetica;
 	font-size: 24px;
-	font-size: 2.67vw;
 	text-transform: uppercase;
 	font-weight: 300;
 }
@@ -79,7 +65,11 @@ ul a {
 }
 
 .menu li:hover {
-	background: #922c2d;
-	color: #fbcf40;
+	background: #922c2d80;
+	transition: .3s;
+}
+
+.menu li.here {
+	background: #922c2d80;
 	transition: .3s;
 }

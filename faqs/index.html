@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%">
 <head>
 	<title>FAQs</title>
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../main.css">
 </head>
-<body>
+<body style="height: 100%">
 	<div class="hero">
 		<div class="hero-cover">
-			<div class="menu">
-				<ul>
-					<a href="../menu"><li>Menu</li></a>
-					<a href="../locations"><li>Locations</li></a>
-					<a href="../faqs"><li class="here">FAQs</li></a>
-					<a href="../about"><li>About</li></a>
-					<a href="../careers"><li>Careers</li></a>
-				</ul>
+			<div class="container">
+				<nav>
+					<a href=".."><img src="../images/logo.png"></a>
+					<ul>
+						<a href="../menu/"><li>Menu</li></a>
+						<a href="../locations/"><li>Locations</li></a>
+						<a href="../faqs/"><li class="here">FAQs</li></a>
+						<a href="../about/"><li>About</li></a>
+						<a href="../careers/"><li>Careers</li></a>
+					</ul>
+				</nav>
+				<div class="content">
+					<div id="collapse-one" class="collapsible" onclick="collapse(this)">
+						<h3>Why is your Rockey Burger So Expensive?</h3>
+					</div>
+					<div id="collapse-one-child" class="collapsed">
+						<p>We focus on making meals with the best and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy's organic cream for our ice cream cones, sundaes and shakes.</p>
+						<p>Our commitment to freshness and quality means higher prices than you’d find at traditional fast-food burger chains. It also means food that tastes way better - because, well, it is.</p>
+					</div>
+					<div id="collapse-two" class="collapsible" onclick="collapse(this)">
+						<h3>Where does your beef come from?</h3>
+					</div>
+					<div id="collapse-two-child" class="collapsed">
+						<p>We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+<script src="../main.js"></script>
 </body>
 </html>

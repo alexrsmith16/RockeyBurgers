@@ -62,6 +62,15 @@ ul a {
 nav {
 	display: flex;
 	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	padding: 10px;
+	background-color: white;
+	background: rgba(255, 255, 255, 0.25) fixed;
+}
+
+nav:sticky {
+	background-color: white;
 }
 
 nav img {
@@ -87,12 +96,13 @@ nav li {
 }
 
 nav li:hover {
-	background: #922c2d80;
+	background: #be8a88;
 	transition: .3s;
+
 }
 
 nav li.here {
-	background: #922c2d80;
+	background: #be8a88;
 	transition: .3s;
 }
 
